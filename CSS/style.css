@@ -1,0 +1,208 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+ul{
+    list-style-type: none;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+   
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* commn css end */
+
+
+/* nav code start */
+
+nav{
+    background-color:#02918b ;
+    
+}
+.logo img{
+    display: block ;
+}
+
+nav div.row{
+    align-items: center;
+}
+
+nav div.logo{
+    width: 13%;
+    display: inline-block;
+    
+}
+nav div.menu{
+    width: 85%;
+    display: inline-block;
+    
+}
+
+/* nav code end */
+
+nav div .menu ul{
+    justify-content: flex-end;
+}
+
+nav div .menu ul li a{
+    font-size: 12px;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: inline-block;
+    transition: .5s;
+}
+
+nav div .menu ul li a:hover,
+nav div .menu ul li a.active{
+    color: black;
+    background: #cfc91d;
+}
+
+/* banner css start */
+#banner{
+    background-image:url(../IMG/banner_bg.jpg);
+    height: 728px;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+#banner::before{
+    position: absolute;
+    content:'';
+    width: 100%;
+    height: 100%;
+    background-color: black; 
+    z-index: -1;
+    opacity: 0.7;
+
+}
+
+#banner .container{
+    margin: auto;
+} 
+#banner h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+
+#banner h1{
+    font-size: 68px;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+
+#banner p{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#banner img{
+    display: block;
+    margin: 52px auto;
+}
+
+#banner a{
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+    background-color: #cfc91d;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 42px;
+
+}
+
+/* banner css end */
+
+/* about me start */
+
+#about .section_info{
+    margin-bottom: 80px;
+}
+
+#about .section_info h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+}
+
+
+#about .section_info p{
+    font-size: 16px;
+    color: #7e8287;
+    width: 874px;
+    margin: auto;
+}
+
+#about .section_info p b{
+    font-size: 23px;
+    font-weight: 800;
+}
+
+#about{
+    text-align: center;
+    padding: 96px 0;
+}
+
+
+#about .about_item{
+    width: 25%;
+    border-right: 1px solid #7e8287;
+    padding: 40px 61px;
+}
+
+#about .about_item:last-child{
+    border: none;
+}
+
+#about .about_item h5{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 28px 0;
+}
+
+
+#about .about_item p{
+    font-size: 11px;
+    font-weight: 800;
+    color: #7e8287;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* about me end */
